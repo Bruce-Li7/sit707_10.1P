@@ -15,7 +15,7 @@ public class TaskManager {
         Task task = new Task(name, studentId, email, comment);
         this.inbox.add(task);
     }
-
+   
     public void listTasks() {
         for (Task task : this.inbox) {
             System.out.println("Task name: " + task.name + ", ID: " + task.studentId + ", Email: " + task.email + ", Comment: " + task.comment);
