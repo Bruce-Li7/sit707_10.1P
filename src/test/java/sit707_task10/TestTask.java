@@ -17,9 +17,9 @@ public class TestTask {
 
         // check task details
         Task task = taskManager.inbox.get(0);
-        Assert.assertEquals("Math Task", task.name);
-        Assert.assertEquals("12345", task.studentId);
-        Assert.assertEquals("student@example.com", task.email);
-        Assert.assertEquals("This is my math task.", task.comment);
+        Assert.assertEquals("Task1.1", task.name);
+        Assert.assertEquals("221105067", task.studentId);
+        Assert.assertEquals("ohg@deakin.edu.au", task.email);
+        Assert.assertEquals("This is my task1.1 task.", task.comment);
     }
 }
